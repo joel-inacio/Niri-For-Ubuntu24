@@ -2,6 +2,8 @@
 <h1 align="center"><img alt="niri" src="https://github.com/user-attachments/assets/07d05cd0-d5dc-4a28-9a35-51bae8f119a0"></h1>
 <p align="center">A scrollable-tiling Wayland compositor but for Ubuntu 24 by: Joel</p>
 <p align="center">Credits to the creator and dev of Niri: https://github.com/niri-wm/niri</p>
+#Screenshot
+![Desktop](main/screenshot.jpg)
 
 ## About
 Niri is a Window Manager for Ubuntu, Fedora, and more subsystems of Linux. But Niri is only available for Ubuntu 25+ but I use Ubuntu 24 and I don't go upgrade my sistem for Ubuntu 26.
