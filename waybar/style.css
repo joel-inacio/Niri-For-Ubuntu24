@@ -1,0 +1,236 @@
+* {
+    border: none;
+    border-radius: 0;
+
+    font-family: "JetBrainsMono Nerd Font", "Noto Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+
+    min-height: 0;
+}
+
+window#waybar {
+    background: rgba(12, 8, 10, 0.88);
+    color: #e8e1e1;
+
+    border-radius: 16px;
+    margin: 3px 8px 0 8px;
+}
+
+/* Tooltips */
+
+tooltip {
+    background: rgba(25, 15, 16, 0.96);
+    border: 1px solid rgba(170, 105, 90, 0.55);
+    border-radius: 8px;
+}
+
+tooltip label {
+    color: #f1e8e5;
+}
+
+/* Módulos */
+
+#custom-launcher,
+#custom-theme,
+#custom-screenshot,
+#custom-clipboard,
+#custom-files,
+#custom-lock,
+#mpris,
+#tray,
+#language,
+#pulseaudio,
+#bluetooth,
+#network,
+#custom-date,
+#custom-power {
+    background: transparent;
+    color: #d8cecc;
+
+    margin: 0;
+    padding: 0 5px;
+
+    border: none;
+}
+
+/* Launcher */
+
+#custom-launcher {
+    color: #f0a48c;
+    font-size: 15px;
+
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+/* Ícones da esquerda */
+
+#custom-theme,
+#custom-screenshot,
+#custom-clipboard,
+#custom-files,
+#custom-lock {
+    color: #b9aaa7;
+}
+
+/* Música */
+
+#mpris {
+    color: #d5c6c2;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+#mpris.paused {
+    color: #817572;
+}
+
+/* Workspaces */
+
+#workspaces {
+    background: transparent;
+    margin: 0;
+    padding: 0 4px;
+}
+
+#workspaces button {
+    min-width: 26px;
+    min-height: 24px;
+
+    margin: 0 2px;
+    padding: 0 7px;
+
+    border-radius: 6px;
+
+    background: rgba(80, 65, 65, 0.45);
+    color: #b9aaa7;
+
+    transition: all 150ms ease;
+}
+
+/* Quando passar o mouse */
+
+#workspaces button:hover {
+    background: rgba(210, 150, 135, 0.35);
+    color: #f0d8d0;
+}
+
+/* Workspace atualmente focado */
+
+#workspaces button.focused {
+    background: #e8a08a;
+    color: #1b1111;
+
+    min-width: 30px;
+    padding: 0 9px;
+
+    font-weight: 700;
+}
+
+/* Workspace ativo em outro monitor */
+
+#workspaces button.active {
+    background: rgba(210, 150, 135, 0.45);
+    color: #f0d8d0;
+}
+
+/* Workspace vazio */
+
+#workspaces button.empty {
+    background: rgba(80, 65, 65, 0.25);
+    color: #766967;
+}
+
+/* Workspace com urgência */
+
+#workspaces button.urgent {
+    background: #d85f63;
+    color: #ffffff;
+}
+
+/* Tray */
+
+#tray {
+    padding: 0 4px;
+}
+
+/* Idioma */
+
+#language {
+    color: #d4c5c1;
+    padding: 0 5px;
+}
+
+/* Áudio */
+
+#pulseaudio {
+    color: #d8cbc8;
+}
+
+#pulseaudio.muted {
+    color: #817572;
+}
+
+/* Bluetooth */
+
+#bluetooth {
+    color: #d8cbc8;
+}
+
+#bluetooth.off {
+    color: #817572;
+}
+
+/* Rede */
+
+#network {
+    color: #d8cbc8;
+}
+
+#network.disconnected {
+    color: #817572;
+}
+
+/* Data / relógio */
+
+#custom-date {
+    color: #e3d5d1;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+/* Power */
+
+#custom-power {
+    color: #e2a18e;
+    font-size: 14px;
+
+    padding-left: 6px;
+    padding-right: 7px;
+}
+
+/* Hover */
+
+#custom-launcher:hover,
+#custom-theme:hover,
+#custom-screenshot:hover,
+#custom-clipboard:hover,
+#custom-files:hover,
+#custom-lock:hover,
+#mpris:hover,
+#tray:hover,
+#language:hover,
+#pulseaudio:hover,
+#bluetooth:hover,
+#network:hover,
+#custom-date:hover,
+#custom-power:hover {
+    color: #f0b3a1;
+}
+
+/* Pequeno destaque no launcher */
+
+#custom-launcher:hover {
+    color: #ffc1ad;
+}
