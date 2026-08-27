@@ -33,3 +33,19 @@ sudo install -m 644 resources/niri-shutdown.target /etc/systemd/user/
 systemctl --user daemon-reload   
 ```
 After installation, log out and select the Niri session from your display manager, or run niri-session from a TTY or from your GDM
+
+1.1 - Build and Install Waybar
+```bash
+git clone https://github.com/Alexays/Waybar
+cd Waybar
+meson setup build
+ninja -C build
+sudo ninja -C build install   
+```
+- Your system will start your waybar automatically. If you get 2 waybars in your desktop, go to ~/.config/niri/config.kdl and write "//" on "spawn-at-startup waybar" (something like this)
+
+1.2 - Set the waybar and Niri config
+- Download my configs and replace the default Niri config
+
+**Remember...**
+When you install Niri, maybe you will need install all dependencies off audio, video... so get a cmd for install all and restart your computer before of setup your customization.
