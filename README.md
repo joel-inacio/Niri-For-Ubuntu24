@@ -3,7 +3,8 @@
 <p align="center">A scrollable-tiling Wayland compositor but for Ubuntu 24 by: Joel</p>
 <p align="center">Credits to the creator and dev of Niri: https://github.com/niri-wm/niri</p>
 
-#Screenshot
+Screenshot
+
 https://github.com/joel-inacio/Niri-For-Ubuntu24/blob/main/screenshot.jpg
 
 
