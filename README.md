@@ -54,4 +54,4 @@ sudo ninja -C build install
 - Download my configs and replace the default Niri config
 
 **Remember...**
-When you install Niri, maybe you will need install all dependencies off audio, video... so get a cmd for install all and restart your computer before of setup your customization.
+When you install Niri, maybe you will need install all dependencies like audio, video... so get a cmd for install all and restart your computer before of setup your customization.
